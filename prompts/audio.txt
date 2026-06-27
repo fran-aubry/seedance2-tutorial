@@ -1,0 +1,4 @@
+Use @Image1 as the character design reference and @Audio1 to drive the lip-sync and emotional performance. 
+The character is framed in a medium close-up, looking directly into the camera lens against a softly lit studio background.
+
+The character's facial expressions and subtle body language must dynamically match the rapid emotional shifts in the audio track: starting with bored neutrality, transitioning to wide-eyed surprise, breaking into a genuine smiling laugh, instantly shifting to a furrowed-brow glare of anger, softening into tearful sadness, and ending with a tense, leaning-in fearful whisper. Maintain perfect structural consistency of the character's face from @Image1 with no deformation during extreme expressions.

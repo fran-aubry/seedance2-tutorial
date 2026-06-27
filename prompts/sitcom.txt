@@ -1,0 +1,32 @@
+Context: A cozy, warmly lit independent coffee shop counter with wooden accents.
+Reference: 
+- The male barista's face and clothing follow @Image1.
+- The female customer's face and styling follow @Image2.
+
+Action & Dialogue (10 Seconds Total):
+
+0:00 - 0:04: 
+Medium close-up on the male barista (@Image1) standing behind the counter,
+next to the coffee machine. He leans across the counter with a smooth, 
+flirtatious smirk, acting like he is making a highly exclusive offer: 
+"The WiFi password? It's actually my phone number: five-five-five, zero-one—"
+
+0:04 - 0:07: 
+Camera cuts to the female customer (@Image2), instantly interrupting him. 
+She holds up her phone screen toward him, entirely unimpressed: 
+"Your network is called 'Free_Guest_WiFi' and there is literally no password."
+
+0:07 - 0:08: Quick cut back to the two-shot. 
+Flustered, the barista becomes visibly embarrassed, his confident smirk 
+instantly vanishing as he nervously breaks eye contact.
+
+0:08 - 0:10: Camera cuts back to a medium shot of the female customer (@Image2). 
+She lowers her phone, tapping her fingers lightly on the counter, 
+and delivers her order with perfect deadpan clarity: 
+"It will be an espresso please. No milk, no sugar, and no phone number."
+
+Framing/Timing: 
+Clean cuts to perfectly pace the comedic timing over exactly 10 seconds.
+
+Tone/Audio: 
+Lighthearted sitcom vibe. Synchronized voice generation for the dialogue, a subtle low cafe background hum, and the sound of the customer's fingers lightly tapping the wooden counter at the end.

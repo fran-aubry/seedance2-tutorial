@@ -1,0 +1,6 @@
+The original skater, environment, and camera movement must remain 
+unchanged and untouched. 
+
+Only add gaming-style visual effects: intense glowing sparks and electric arcs 
+streaming from the skateboard-rail contact point during the grind, and a 
+brilliant energy shockwaves and dust burst at the jump/pop. 

@@ -1,4 +1,3 @@
-from IPython import utils
 import os
 from byteplussdkarkruntime import Ark
 from dotenv import load_dotenv
@@ -13,7 +12,7 @@ client = Ark(
 )
 
 # Dialogue-driven comedy prompt optimized for Seedance 2.0 sequential generation
-prompt = utils.load_prompt("sitcom.txt")
+prompt = utils.load_prompt("./prompts/sitcom.txt")
 
 response = client.content_generation.tasks.create(
     model="dreamina-seedance-2-0-260128",

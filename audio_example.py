@@ -11,7 +11,6 @@ client = Ark(
     base_url="https://ark.ap-southeast.bytepluses.com/api/v3"
 )
 
-# Dialogue-driven prompt optimized for Seedance 2.0
 prompt = utils.load_prompt("./prompts/audio.txt")
 
 response = client.content_generation.tasks.create(

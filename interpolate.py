@@ -11,7 +11,6 @@ client = Ark(
     base_url="https://ark.ap-southeast.bytepluses.com/api/v3"
 )
 
-# Dialogue-driven comedy prompt optimized for Seedance 2.0 sequential generation
 prompt = utils.load_prompt("./prompts/room.txt")
 
 response = client.content_generation.tasks.create(
@@ -46,7 +45,6 @@ response = client.content_generation.tasks.create(
 task_id = response.id
 print(f"Task successfully submitted! Task ID: {task_id}")
 
-# Wait for the video to finish generating
 video_url = utils.poll_task(client, task_id)
 
 saved_path = utils.download_video(video_url)

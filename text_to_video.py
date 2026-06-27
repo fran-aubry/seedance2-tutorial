@@ -3,7 +3,6 @@ from byteplussdkarkruntime import Ark
 from dotenv import load_dotenv
 import utils
 
-
 load_dotenv()
 API_KEY = os.getenv("ARK_API_KEY")
 
@@ -34,7 +33,6 @@ print(f"Task successfully submitted! Task ID: {task_id}")
 
 # Wait for the video to finish generating
 video_url = utils.poll_task(client, task_id)
-
 
 saved_path = utils.download_video(video_url)
 if saved_path:

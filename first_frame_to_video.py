@@ -11,8 +11,7 @@ client = Ark(
     base_url="https://ark.ap-southeast.bytepluses.com/api/v3"
 )
 
-# Dialogue-driven comedy prompt optimized for Seedance 2.0 sequential generation
-prompt = utils.load_prompt("./prompts/robot-lab2.txt")
+prompt = utils.load_prompt("./prompts/robot-lab1.txt")
 
 response = client.content_generation.tasks.create(
     model="dreamina-seedance-2-0-260128",
@@ -24,7 +23,7 @@ response = client.content_generation.tasks.create(
         {
             "type": "image_url",
             "image_url": {
-                "url": utils.load_image("./images/robot-lab2.jpeg")
+                "url": utils.load_image("./images/robot-lab1.jpeg")
             },
             "role": "first_frame"
         }
@@ -39,7 +38,6 @@ response = client.content_generation.tasks.create(
 task_id = response.id
 print(f"Task successfully submitted! Task ID: {task_id}")
 
-# Wait for the video to finish generating
 video_url = utils.poll_task(client, task_id)
 
 saved_path = utils.download_video(video_url)
